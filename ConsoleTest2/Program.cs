@@ -7,8 +7,6 @@ namespace ConsoleTest2
     {
         public static void Main(string[] args)
         {
-            string a = "";
-            a.Split("=");
             Console.WriteLine($"Hello, World from {MyConsoleProvider.GetProvidingString()}!");
         }
     }
