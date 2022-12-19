@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net6.0;net5.0</TargetFrameworks>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ConsoleTest2ServiceProvider\ConsoleTest2ServiceProvider.csproj"></ProjectReference>
+	</ItemGroup>
+</Project>
