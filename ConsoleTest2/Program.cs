@@ -7,7 +7,9 @@ namespace ConsoleTest2
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("================================");
             Console.WriteLine($"Hello, World from {MyConsoleProvider.GetProvidingString()}!");
+            Console.WriteLine("================================");
         }
     }
 }
